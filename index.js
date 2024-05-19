@@ -13,7 +13,7 @@ function pingForPlayers() {
 			client.user.setPresence({
 				game: {
 					// Example: "Watching 5 players on server.com"
-					name: `${playerCount} player${playerCount > 1 ? 's' : ''} on ${process.env.MC_SERVER_IP}`,
+					name: `${playerCount} jugadores conectados`,
 					type: 3 // Use activity type 3 which is "Watching"
 				}
 			})
